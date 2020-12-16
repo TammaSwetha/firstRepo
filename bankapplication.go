@@ -7,6 +7,7 @@ var accountNo int
 type account struct {
 	firstName, LastName string
 	balance             int
+	salary              int
 }
 
 var m map[int]account //  int account number
